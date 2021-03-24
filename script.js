@@ -1,5 +1,7 @@
 const inputs = document.querySelectorAll('input');
 
+inputs[0].focus();
+
 inputs.forEach((input, idx) => {
     input.addEventListener('beforeinput', e => {
         if (e.target.value !== '') {
