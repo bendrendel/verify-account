@@ -9,23 +9,19 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>Verify Your Account</h1>
-        <p>We emailed you the six digit code to cool_guy@email.com.<br/>Enter the code below to confirm your email address.</p>
-      </header>
+      <h1>Verify Your Account</h1>
+      <p>We emailed you the six digit code to cool_guy@email.com.<br/>Enter the code below to confirm your email address.</p>
 
-      <form>
+      <div class="code-container">
         <input type="number" name="digit-1" required min="0" max="9" placeholder="0">
         <input type="number" name="digit-2" required min="0" max="9" placeholder="0">
         <input type="number" name="digit-3" required min="0" max="9" placeholder="0">
         <input type="number" name="digit-4" required min="0" max="9" placeholder="0">
         <input type="number" name="digit-5" required min="0" max="9" placeholder="0">
         <input type="number" name="digit-6" required min="0" max="9" placeholder="0">
-      </form>
+      </div>
 
-      <footer>
-        <p>This is design only. We didn't actually send you an email as we don't have your email, right?</p>
-      </footer>
+      <p class="info">This is design only. We didn't actually send you an email as we don't have your email, right?</p>
     </div>
   </body>
 </html>
